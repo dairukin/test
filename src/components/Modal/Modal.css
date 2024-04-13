@@ -1,0 +1,20 @@
+.modal {
+    transition: .2s ease-in-out;
+    position: fixed;
+    width: 400px;
+    height: 100%;
+    background: #fff;
+    z-index: 9999;
+    border-left: 1px solid #ccc;
+    top: 0;
+    right: -500px;
+
+    padding: 30px;
+}
+
+#close_modal{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
